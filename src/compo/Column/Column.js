@@ -1,5 +1,5 @@
 import './Column.css';
-import Task from '../Crad/Task';
+import Task from '../Task/Task';
 
 const Column = () => {
 return (
