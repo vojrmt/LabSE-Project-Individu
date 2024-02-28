@@ -1,8 +1,14 @@
-import React from "react";
+import AppBar from "./compo/AppBar/AppBar";
+import BoardBar from "./compo/BoardBar/BoardBar";
+import BoardContent from "./compo/BoardContent/BoardContent";
 
-const App = () => {
+function App() {
     return(
-      <h1>miip</h1>  
+      <div className="trello-overall">
+        <AppBar />
+        <BoardBar />
+        <BoardContent />        
+      </div>
     );
 }
 

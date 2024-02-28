@@ -1,0 +1,32 @@
+.column *{
+    background-color: rgb(213, 217, 220);
+    color:rgb(32, 32, 32);
+    padding: 0 8px;
+}
+
+.column header{
+    padding-left: 15px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.column footer{
+    padding-left: 10px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.task-list{
+  list-style-type: none;  
+  margin: 0;
+  max-height: calc(100% - 72px);
+  overflow-y: auto;
+  overflow-x: auto;
+}
+

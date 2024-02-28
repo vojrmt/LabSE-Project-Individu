@@ -1,0 +1,14 @@
+
+.board-columns {
+    display: flex; 
+    width: 100%; 
+    overflow: auto;
+  }
+  
+  .board-columns .column{
+      flex: 0 0 auto;
+      width: 300px;
+      height: calc(100% - 10px);
+      margin-left: 10px;
+  
+  }

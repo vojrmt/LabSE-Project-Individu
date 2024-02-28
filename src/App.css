@@ -5,3 +5,15 @@ body {
    -moz-osx-font-smoothing: grayscale;
    
 }
+
+h1 {
+    color: blueviolet;
+}
+
+.trello-overall {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 50px 1fr;
+    line-height: 1.3em;
+    background-color: #84bba1;
+}

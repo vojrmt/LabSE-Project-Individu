@@ -1,0 +1,10 @@
+.navbar.app{
+    padding-left: 10px;
+    display:flex;
+    align-items: center;
+
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #3d8061;
+}
