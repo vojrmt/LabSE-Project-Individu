@@ -5,7 +5,7 @@ const AppBar = () => {
 
     return(
         <>
-        <nav className="navbar app"> App bar</nav> 
+        <nav className="navbar app"> Project Management App</nav> 
         </>
     )
 

@@ -12,3 +12,30 @@
       margin-left: 10px;
   
   }
+
+  .add-new-column {
+    width: 250px;
+    height: 32px;
+    line-height: 32px;
+    padding: 4px 15px 4px 15px;
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #226666;
+  }
+
+  .add-new-column:hover{
+    background-color: #3a9797 ;
+  }
+
+  .add-new-column p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .content-add-column {
+    width: 250px;
+    padding : 5px;
+    margin-left: 10px;
+  }
