@@ -14,13 +14,18 @@
     border-top-left-radius: 5px;
 }
 
-.column footer{
+.column div footer{
     padding-left: 10px;
     height: 36px;
     line-height: 36px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    cursor: pointer;
 }
+
+.column div footer:hover{
+    background-color: #9d9d9d ;
+  }
 
 .task-list{
   list-style-type: none;  

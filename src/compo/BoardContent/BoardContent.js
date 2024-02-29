@@ -38,8 +38,7 @@ const BoardContent = () => {
             title: valueInput,
             tasks: []
         });
-        console.log(_columns)
-
+        
         setColumns(_columns);
     }
     
